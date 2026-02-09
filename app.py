@@ -11,7 +11,8 @@ st.set_page_config(
 )
 
 # --- Carregamento dos dados ---
-df = pd.read_csv("https://raw.githubusercontent.com/vqrca/dashboard_salarios_dados/refs/heads/main/dados-imersao-final.csv")
+df = pd.read_csv("https://raw.githubusercontent.com/LahireNeto/Imersao-Dados-Python-Alura/refs/heads/main/dados_limpos_imersao.csv")
+
 
 # --- Barra Lateral (Filtros) ---
 st.sidebar.header("🔍 Filtros")
